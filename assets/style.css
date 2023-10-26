@@ -27,6 +27,7 @@ audio::-webkit-media-controls-mute-button{
   color: #c65959;
 }
 
+
 audio::-webkit-media-controls-timeline-container,
 audio::-webkit-media-controls-current-time-display,
 audio::-webkit-media-controls-time-remaining-display,
@@ -724,9 +725,10 @@ display: none;
 .carousel-control-prev {
   position: absolute;
   mix-blend-mode: difference;
-  top: 0%;
+  top: 20%;
   bottom: 0;
   z-index: 1;
+  height:50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -778,7 +780,7 @@ display: none;
 .carousel-indicators {
   position: absolute;
   right: 0;
-  bottom: 0%;
+  top: 0%;
   left: 0;
   z-index: 2;
   display: flex;
