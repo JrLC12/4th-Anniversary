@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
 :root{
     --maincolor:#F7D3CB;
     --darker_maincolor:#ccaca4;
@@ -47,7 +48,7 @@ audio::-webkit-media-controls-play-button{
 }
 .topnav {
     z-index: 5;
-    font-family:cursive;
+    font-family: 'Playpen Sans', cursive;
     position: fixed;
     left: 0;
     box-sizing: border-box;
@@ -176,12 +177,12 @@ display: none;
     box-sizing: border-box;
   }
   .msg_header span{
-    font:500 4vh cursive;
+    font:500 4vh 'Playpen Sans', cursive;
     color:var(--white);
     white-space: normal;
   }
  .msg_header h1{
-  font:500 4vh cursive;
+  font:500 4vh 'Playpen Sans', cursive;
     color:var(--white);
     white-space: normal;
  }
@@ -237,7 +238,7 @@ display: none;
     display:flex;
     justify-self: center;
     grid-area: cc;
-    font:500 5vh cursive;
+    font:500 5vh 'Playpen Sans', cursive;
     color:var(--white);
   }
   .video{
@@ -350,7 +351,7 @@ display: none;
   text-wrap: wrap;
 }
 .main-msg p{
-  font:600 2.5vh cursive;
+  font:600 2.5vh 'Playpen Sans', cursive;
   color:rgb(54, 50, 50);
 }
    /*Main - end */
@@ -364,14 +365,7 @@ display: none;
     background-color: transparent;
   }
 
-  
-	.amp {
-		font-family:Garamond,Baskerville,Georgia,serif !important;
-		font-style:italic;
-		font-weight:normal;
-		border: none;
-	}
-	
+
 	a.polaroid {
 		display: block;
 		text-decoration: none;
@@ -432,7 +426,7 @@ display: none;
 	}
 	.photo-album h1 span {
 		background-color: var(--maincolor);
-		font-family: cursive;
+		font-family: 'Playpen Sans', cursive;
     color:var(--white);
 		padding: 0.4em 0.8em 0.3em 0.8em;
 		-webkit-box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
@@ -573,6 +567,9 @@ display: none;
 		transform: rotate(-8deg);
 	}
 	
+  .photo-album a{
+    font-family:'Playpen Sans', cursive;
+  }
 	.photo-album a:hover,
 	.photo-album a:focus {
 		z-index: 5;
@@ -590,7 +587,7 @@ display: none;
   }
   footer span{
     color:var(--white);
-    font: 500 20px cursive;
+    font: 500 20px 'Playpen Sans', cursive;
   }
   footer i{
     color:red;
@@ -908,7 +905,7 @@ button:not(:disabled) {
 }
 
 
-@media (width <= 600px){
+@media only screen and (max-width: 600px){
   .container-fluid{
   width:100%;
   height:min-content;
